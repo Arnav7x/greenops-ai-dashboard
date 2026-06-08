@@ -24,3 +24,15 @@ Different resources consume energy differently. CPU compute, storage, and data t
 Determined by grouping the dataset by service_type and comparing total CO2e emissions.
 
 
+
+## Hurdle 2 Concept Check
+
+### Blob Storage vs Azure SQL Database
+Azure Blob Storage is used for unstructured files such as CSVs, images, logs, and model artifacts. Azure SQL Database is used for structured relational data that requires querying, indexing, and transactions.
+
+### What is LRS?
+Locally Redundant Storage (LRS) keeps multiple copies of data within a single Azure datacenter. It is cheaper but does not protect against regional outages like Geo-Redundant Storage (GRS).
+
+### Why is hardcoding a connection string risky?
+Anyone with access to the source code can access the storage account. Secrets should be stored in environment variables, .env files, or Azure Key Vault.
+
