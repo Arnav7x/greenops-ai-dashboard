@@ -36,3 +36,15 @@ Locally Redundant Storage (LRS) keeps multiple copies of data within a single Az
 ### Why is hardcoding a connection string risky?
 Anyone with access to the source code can access the storage account. Secrets should be stored in environment variables, .env files, or Azure Key Vault.
 
+
+## Hurdle 3 Concept Check
+
+### What is RMSE?
+RMSE (Root Mean Squared Error) measures the average magnitude of prediction errors. Lower RMSE indicates better predictive accuracy.
+
+### Why create lag features?
+Lag features allow the model to learn how previous CO2e values influence future values. They capture temporal dependencies in time-series data.
+
+### Risks of Linear Regression
+Linear Regression assumes a linear relationship between inputs and outputs. It may fail to capture nonlinear trends, seasonality, and sudden spikes in carbon emissions.
+
