@@ -1,6 +1,6 @@
 # GreenOps AI Dashboard
 
-## Concept Check
+## Hurdle 0 Concept Check
 
 ### What is a Resource Group in Azure?
 A Resource Group is a logical container used to organize and manage related Azure resources together.
